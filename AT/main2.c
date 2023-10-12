@@ -53,6 +53,13 @@ int main(int argc, char const *argv[])
     F[0] = Inserer(&F[0], 'x');
     F[0] = Inserer(&F[0], 'a');
     F[1] = Inserer(&F[1], 'z');
+    F[0] = Inserer(&F[0], 'x');
+    F[0] = Inserer(&F[0], 'a');
+    F[1] = Inserer(&F[1], 'z');
+    F[0] = Inserer(&F[0], 'x');
+    F[0] = Inserer(&F[0], 'a');
+    F[1] = Inserer(&F[1], 'z');
+
     Afficher(F);
 
     return 0;
